@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  
+  .admission-form{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 160px;
+    padding: 10px 110px 0px 110px;
+    background-color:rgb(226, 141, 37) ;
+  }
+  .hr{
+    padding-bottom: 50;
+    margin-bottom: 50px;
+    background-color: black;
+  }
+  .school-logo{
+    width: 140px;
+  background-color: black;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    height: 155px;
+  }
+  .grade-logo{
+    display: inline;
+    width: 150px;
+   background-color: black;
+    float: left;
+    margin-left: 1px;
+    height: 155px;
+    margin-top:7px
+  }
+.form{
+    border: solid rgb(226, 141, 37);
+   border-radius: 10px;
+   box-shadow: -2px 0 0 10px rgb(226, 141, 37);
+   
+}
+.main-form{
+ 
+}
+.details{
+  padding-left: 30px;
+}
+.head-info{
+ background-color:rgb(226, 141, 37) ;
+}
+.submit{
+  background-color: green;
+}
+.reset{
+ background-color:red ; 
+}
+@media (max-width: 768px) {
+  .school-logo{
+    margin: 0;
+    padding: 0;
+  }
+  .grade-logo{
+
+}
+.admission-form h1{
+  font-size: 24px;
+}
+}
+@media (max-width: 403px) {
+  .school-logo{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+  }
+}
+ /* .grade-logo{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+  .admission-form h1{
+    font-size: 15px;
+
+}
+.admission-form p{
+  font-size: 10px;
+}*/

@@ -1,0 +1,108 @@
+
+body{
+    font-family: system-ui, sans-serif;
+    background-color:rgb(172, 107, 27) ;
+   
+    width: 100%;
+}
+.main-heading{
+    font-size: 3.5rem;
+    color: black;
+    border:solid rgb(226, 141, 37);
+    width: 350px;
+    background-color: rgb(226, 141, 37);
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.exam-notice{
+    /*background-color: aqua;*/
+    width: 800px;
+    height: 700px;
+    margin: 50px;
+    border:solid #f4f4f4;
+    box-shadow:0 0 0 0.5px black ;
+    background-color: aliceblue;
+    
+}
+.school-name h1{
+    display: inline;
+    margin-left: 80px;
+    width:auto;
+    color: #f4f4f4;
+    background-color: black;
+    /*padding: 10px 110px 0 110px;*/
+    
+    
+}
+.school-logo{
+    width: 100px;
+  
+   background-color: black;
+   float: right;
+   margin: right 20px;
+ 
+}
+.grade-logo{
+    display: inline;
+    width: 100px;
+    background-color:  black;
+    float: left;
+    margin-left: 20px;
+    height: 110px;
+
+}
+.date{
+    float: right;
+   
+}
+.notice-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title-of-notice{
+    font-size: 10px;
+    align-self: center;
+    margin-top: 30px;
+}
+.subject{
+    align-self: center;
+}
+.notice{
+    margin-left: 100px;
+    width: 400px;
+}
+.regards{
+    padding-left: 70px;
+}
+.sign{
+    margin-top: 218px;
+}
+/* for tablet */
+@media (max-width: 768px) {
+    .exam-notice{
+        width: 680px;
+    }
+}
+/*for large mobile*/
+@media (max-width: 600px) {
+    .exam-notice{
+        margin-left: 0;
+        width: 560px;
+        
+    }
+    .school-name h1{
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .exam-notice{
+        width: 445px;
+        height: 750px;
+    }
+    .school-name h1{
+        font-size: 12px;
+        margin-right: 3px;
+        
+    }
+}
