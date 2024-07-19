@@ -106,6 +106,14 @@
     background-color: #333;
     color: #fff;
   }
-  @media (max-width: 769px) {
-    
-  }
+  @media{
+    .school-name h1{
+      font-size: 20px;
+    }
+    .school-logo{
+     padding-right: 220px;
+    }
+    .grade-logo{
+       margin-left: 220px;
+    }
+  }
